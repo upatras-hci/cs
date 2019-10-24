@@ -4,7 +4,7 @@
 
 [Οδηγίες για την αποστολή της αναφοράς](https://courses-ionio.github.io/help/guide/) 
 
-[Απορίες και πρόγραμμα συναντήσεων](https://github.com/upatras-hci/cs/issues)
+[Απορίες και ανακοινώσεις](https://github.com/upatras-hci/cs/issues)
 
 Συντονιστής συστημάτων τηλεεκπαίδευσης: [Διογένης Αλεξανδράκης](https://github.com/diogenisAl/)
 
