@@ -8,7 +8,7 @@
 
 > git clone https://github.com/c18papa/simple-cv-c18papa.git
 
-Ύστερα έγιναν οι απαραίτητες αλλαγές στα αρχεία των φακέλων metadata, sections, sections.txt. Με την εκτέλεση της εντολής sh process.sh έγινε η δημιουργία των αρχέιων .pdf, .html.
+Ύστερα έγιναν οι απαραίτητες αλλαγές στα αρχεία των φακέλων metadata, sections, sections.txt. Με την εκτέλεση της εντολής sh process.sh έγινε η δημιουργία του αρχείου .html.
 
 - Η σελίδα του βιογραφικού [moya-CV](https://moya10.github.io/first-cv/)
 
@@ -20,7 +20,7 @@
 
 > git clone https://github.com/c18papa/simple-cv-c18papa.git
 
-Ύστερα έγιναν οι απαραίτητες αλλαγές στα αρχεία των φακέλων metadata, sections, sections.txt. Με την εκτέλεση της εντολής sh process.sh έγινε η δημιουργία των αρχέιων .pdf, .html.
+Ύστερα έγιναν οι απαραίτητες αλλαγές στα αρχεία των φακέλων metadata, sections, sections.txt. Με την εκτέλεση της εντολής sh process.sh έγινε η δημιουργία των αρχείων .pdf, .html.
 
 - Η σελίδα του βιογραφικού [moya-CV](https://moya10.github.io/moya-cv/)
 
