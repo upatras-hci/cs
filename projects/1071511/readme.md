@@ -7,6 +7,7 @@ Collaborative Technologies
 Σας παραθέτω:
 
 1)το CV που δημιούργησα --> (https://stagohci.github.io/online-cv/)
+
 2)το αποθετήριο --> (https://github.com/StagoHCI/online-cv)
 
 
