@@ -1,5 +1,5 @@
-*Full name: Kallirroi Zarkadoula
-*AM : ece8049
+* Full name: Kallirroi Zarkadoula
+* AM : ece8049
 
 ## Παραδοτέο Α
 Έγινε fork του αποθετηρίου   και πραγματοποιήθηκαν οι απαραίτητες αλλαγές για την δημιουργία του βιογραφικού
