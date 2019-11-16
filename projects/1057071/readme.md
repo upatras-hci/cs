@@ -15,7 +15,7 @@ Task2 (Collaborative Site) Part A
 
 
 *  [my_contribution_to__courses](https://github.com/Poulios/site/tree/master/_courses)
-*  [the_list_of reguests](https://github.com/upatras-hci/site/pulls)
+*  [the_list_of requests](https://github.com/upatras-hci/site/pulls)
 
 
 
