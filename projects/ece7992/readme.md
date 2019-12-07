@@ -1,4 +1,7 @@
 # Awesome-CV Second Assignment
+
+Ραφαηλία Ασημακοπούλου
+
 [View Site](https://moya10.github.io/awesome-cv/)
 
 ## Installation & setup guide
