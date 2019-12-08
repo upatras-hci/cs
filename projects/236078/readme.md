@@ -13,3 +13,4 @@ To link του repository είναι https://github.com/spiroskatsampiris/markdo
 ## 2ο Παραδοτέο (Δημιουργία Βιογραφικού με χρήση Jekyll, pandoc, pdf)
 Για την υλοποίηση του ερωτήματος αυτού, δημιουργήθηκε ένα αρχείο process.sh στο οποίο έχουμε την εξής εντολή 
 pandoc https://spiroskatsampiris.github.io/markdown-cv/ -f html-native_divs -o cv.pdf --pdf-engine=xelatex
+Επιπλέον, προστέθηκε στο html αρχείο η δυνατότητα να κατεβάσει κάποιος το pdf του βιογραφικού σημειώματος, το οποίο δημιουργήθηκε με την παραπάνω εντολή. 
