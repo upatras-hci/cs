@@ -1,7 +1,4 @@
 # Awesome-CV Second Assignment
-
-Ραφαηλία Ασημακοπούλου
-
 [View Site](https://moya10.github.io/awesome-cv/)
 
 ## Installation & setup guide
@@ -72,3 +69,69 @@ In *_config.yml* add the cv option and a link to download the *resume.pdf* file.
 ## Upload
 
 Upload the whole .git project in your repository and create the *gh-pages* branch.
+
+## Continuous Integration
+
+To set up Travis CI, put the following in the .travis.yml file in your repository:
+
+`language: ruby`
+
+`cache: bundler` 
+
+`sudo: required`
+
+`dist: trusty`
+
+`before_install:`
+
+`- wget https://github.com/jgm/pandoc/releases/download/1.15.2/pandoc-1.15.2-1-amd64.deb`
+
+`- sudo dpkg -i pandoc-1.15.2-1-amd64.deb`
+
+`- rm pandoc-1.15.2-1-amd64.deb`
+
+`- sudo apt-get -qq update && sudo apt-get install -y --no-install-recommends texlive-full`
+
+`branches:`
+
+`  only:`
+
+`  - release`
+
+`script:`
+
+`  - JEKYLL_ENV=production bundle exec jekyll build --destination site`
+
+`  - make`
+
+`  - pdflatex -interaction=nonstopmode -halt-on-error *.tex`
+
+`deploy:`
+
+`  provider: pages`
+
+`  local-dir: ./site`
+
+`  target-branch: master`
+
+`  email: deploy@travis-ci.org`
+
+`  name: Deployment Bot`
+
+`  skip-cleanup: true`
+
+`  github-token: SGITHUB_TOKEN`
+
+`  keep-history: true`
+
+`  on:`
+
+`    branch: release`
+
+Usage of other commands, such as latex or xelatex, is analogous.
+
+See Trvais CI build output 
+
+![Image](https://bipolartest.000webhostapp.com/image.png)
+
+With *pull-request* I add the changes from *release branch-tree* to *gh-pages branch-tree*
