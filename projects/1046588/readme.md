@@ -26,4 +26,4 @@
 
 Για την ώρα δημιουργήθηκε ένα .pdf του βιογραφικού τοπικά με την χρήση Latex+pandoc. Δημιούργησα ένα καινούργιο αποθετήριο όπου έχω τοποθετήσει το κώδικα και το βιογραφικό σε αυτήν την μορφή. 
 
-Αποθετήριο: https://github.com/MariaKoutroumani/Mary-s-CV-
+Αποθετήριο:https://github.com/MariaKoutroumani/Mary-s-CV-/tree/marybranch
