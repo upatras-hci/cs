@@ -19,3 +19,11 @@
  
  - Σελίδα Βιογραφικού: https://mariakoutroumani.github.io/markdown-cv/
  - Αποθετήριο του κώδικα με το οποίο δημιουργήθηκε το βιογραφικό https://github.com/MariaKoutroumani/markdown-cv/tree/gh-pages
+
+**Β ΠΑΡΑΔΟΤΕΟ  (ΒΙΟΓΡΑΦΙΚΟ)**
+
+1η προσπάθεια.
+
+Για την ώρα δημιουργήθηκε ένα .pdf του βιογραφικού τοπικά με την χρήση Latex+pandoc. Δημιούργησα ένα καινούργιο αποθετήριο όπου έχω τοποθετήσει το κώδικα και το βιογραφικό σε αυτήν την μορφή. 
+
+Αποθετήριο: https://github.com/MariaKoutroumani/Mary-s-CV-
