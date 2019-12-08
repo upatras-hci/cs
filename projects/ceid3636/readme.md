@@ -35,3 +35,7 @@
  - Εισαγωγή των προσωπικών στοιχείων.         
 
  - Επιπλέον παραμετροποίηση με χρήση CSS.
+
+
+#### Παραδοτέο 2
+Για την υλοποίηση του ζητουμένου της εργασίας χρησιμοποιήθηκε τοπικά στον υπολογιστή τα εργαλεία pandoc, Latex και το template "eisvogel". Με την εκτέλεση της εντολής "pandoc -s _config.yml -o resume.pdf --template=EISVOGEL.tex --pdf-engine=xelatex" δημιουργήθηκε το αρχείο [resume.pdf](https://github.com/tgeorgako/tgeorgako.github.io/blob/master/resume.pdf)
