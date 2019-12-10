@@ -1,6 +1,8 @@
 # Awesome-CV Second Assignment
 [View Site](https://moya10.github.io/awesome-cv/)
 
+[αποθετήριο κώδικα](https://github.com/moya10/awesome-cv)
+
 ## Installation & setup guide
 This template is designed to be hosted using GitHub pages and so that's what these instructions will cover. If you plan on hosting it seperately then there might be some extra steps that we wont cover.
 
