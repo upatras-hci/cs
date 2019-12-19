@@ -10,3 +10,15 @@
 Στη συνέχεια παραθέτω τη σελίδα του βιογραφικού μου καθώς και το αποθετήριο κώδικα του βιογραφικού.
 *  [Η σελίδα του βιογραφικού](https://semira99.github.io/online-cv/)
 *  [Αποθετήριο του κώδικα του βιογραφικού](https://github.com/semira99/online-cv)
+
+
+Before  start I installed Ruby and the gems for Jekyll installed locally. 
+
+Clone your resume repository locally 
+cd online-cv
+bundle install
+bundle exec jekyll serve
+Ready open http://localhost:4000
+
+##Latex
+I create locally a pdf for my cv 
