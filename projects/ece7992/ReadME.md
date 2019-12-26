@@ -8,23 +8,6 @@ This template is designed to be hosted using GitHub pages and so that's what the
 
 Before starting it might be useful to familiarise yourself with [Jekyll](https://jekyllrb.com/docs/home/), [Markdown](https://www.markdownguide.org/getting-started) and [GitHub pages](https://pages.github.com/).
 
-## Usage
-
-##### _config.yml
-This will contain all the of the main configuration for your resume such as your name, email, social media links and about me content. It will also allow you to change the titles of some of the content sections.
-A full example of the _config.yml can be found [here](https://github.com/sproogen/modern-resume-theme/blob/master/_config.yml)
-
-##### _data/education.yml
-A list of all your education, each education will follow this format
-
-##### _data/experience.yml
-A list of all your experience, each experience will follow this format
-
-##### _data/projects.yml
-A list of all your projects, each project will follow this format
-
-##### assets/main.scss
-Add any css changes or additions you want to make here after the line `@import 'modern-resume-theme';`
 
 ## Running locally
 
@@ -75,51 +58,7 @@ Upload the whole .git project in your repository and create the *gh-pages* branc
 
 ## Continuous Integration
 
-To set up Travis CI, put the following in the .travis.yml file in your repository:
+To set up Travis CI, create the .travis.yml file in your repository:
 
+Trvais CI [build output](https://travis-ci.com/moya10/awesome-cv)
 
-`language: ruby`
-
-`cache: bundler `
-
-`before_install: `
-
-` - gem update bundler`
-
-`  - wget https://github.com/jgm/pandoc/releases/download/1.15.2/pandoc-1.15.2-1-amd64.deb`
-
-`  - sudo dpkg -i pandoc-1.15.2-1-amd64.deb`
-
-`  - rm pandoc-1.15.2-1-amd64.deb`
-
-`- sudo apt-get -qq update && sudo apt-get install -y --no-install-recommends texlive-full`
-
-`install:`
-
-`  - bundle install`
-  
-`script:`
-
-`  - bundle exec jekyll build`
-
-`  - make`
-
-`  - pdflatex -interaction=nonstopmode -halt-on-error *.tex`
- 
-`branches:`
-
-`  only:`
-
-`  - gh-pages`
-
-`sudo: false`
-
-
-Usage of other commands, such as latex or xelatex, is analogous.
-
-See Trvais CI build output 
-
-![Image](https://bipolartest.000webhostapp.com/image.png)
-[build](https://travis-ci.com/moya10/awesome-cv)
-
-With *pull-request* I add the changes from *release branch-tree* to *gh-pages branch-tree*
